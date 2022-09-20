@@ -39,4 +39,3 @@ services:
       io.balena.features.firmware: "1"
 volumes:
   minecraft-data:
-  web-rcon:
