@@ -34,7 +34,7 @@ assets:
     type: blob.asset
     data:
       url: >-
-        https://raw.githubusercontent.com/SamEureka/itzg-minecraft-server/main/icon.jpg
+        https://raw.githubusercontent.com/SamEureka/itzg-minecraft-server/main/minecraft_grass.png
   defaultDeviceType: raspberrypi4-64
   supportedDeviceTypes:
     - raspberrypi4-64
