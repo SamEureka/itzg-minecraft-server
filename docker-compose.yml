@@ -17,18 +17,6 @@ services:
     ports:
       - "25565:25565/tcp"
       - "25575:25575/tcp"
-  scp-server:
-    network_mode: host
-    restart: always
-    build: ./scp-server
-    privileged: false
-    labels:
-      io.balena.features.dbus: 1
-    volumes:
-      - minecraft-data:/data
-    ports:
-      - "22:22/udp"
-      - "22:22/tcp"
   wifi-connect:
     build: ./wifi-connect
     restart: always
