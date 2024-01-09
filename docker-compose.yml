@@ -17,6 +17,12 @@ services:
     ports:
       - "25565:25565/tcp"
       - "25575:25575/tcp"
+  itzg-rcon-web:
+    network_mode: host
+    restart: always
+    image: itzg/rcon-web-admin
+    ports:
+      - "4326:4326"
   wifi-connect:
     build: ./wifi-connect
     restart: always
